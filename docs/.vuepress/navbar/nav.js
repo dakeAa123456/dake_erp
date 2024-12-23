@@ -51,6 +51,7 @@ module.exports =  [
  { text: '招商加盟', link: '/pages/db78e2/' },
  { text: '联系我们', link: '/pages/5d571c/' },
  { text: '导航站', link: '/pages/daohang/' },
+ { text: '留言区', link: '/message-area/' }
 
 
 

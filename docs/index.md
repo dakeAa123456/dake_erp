@@ -189,7 +189,21 @@ data:
   box-sizing: border-box;
   border: 1px solid #11a8cd;
 }
+.become-sponsor:hover{
+color: #bd34fe;
+border: 1px solid #bd34fe;
+}
 </style>
+
+::: center
+
+### 合作品牌
+
+Partner
+<br/>
+
+<img src="/img/brand001.png" />
+:::
 
 <br/>
 
@@ -202,37 +216,33 @@ data:
 ::: cardList
 
 ```yaml
-- name: 麋鹿鲁哟
-  desc: 大道至简，知易行难
-  avatar: https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200122153807.jpg # 可选
-  link: https://www.cnblogs.com/miluluyo/ # 可选
+- name: 千年舟
+  desc: 做好柜，用好板，就用千年舟
+  avatar: https://www.treezogroup.com/Img_mt/images/logo2.png # 可选
+  link: https://www.treezogroup.com/ # 可选
   bgColor: "#CBEAFA" # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: "#6854A1" # 可选，默认var(--textColor)
-- name: XAOXUU
-  desc: "#IOS #Volantis主题作者"
-  avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
-  link: https://xaoxuu.com
+- name: 宜家家居
+  desc: 家的温暖，爱的港湾 IKEA体验馆
+  avatar: https://static.web.ikea.cn/static/images/headerImages/logo.svg
+  link: https://www.ikea.cn/cn/zh/
   bgColor: "#718971"
   textColor: "#fff"
-- name: 平凡的你我
-  desc: 理想成为大牛的小陈同学
-  avatar: https://reinness.com/avatar.png
-  link: /img/dake01.png
+- name: 欧派家居
+  desc: 有家,有爱,有欧派
+  avatar: https://www.oppein.com/templates/specialty/images/logo.png
+  link: https://www.oppein.com/cn/
   bgColor: "#FCDBA0"
   textColor: "#A05F2C"
 ```
 
 :::
 
-::: center
-
-### 合作品牌
-
-Partner
-<br/>
-
-<img src="/img/brand001.png" />
-:::
+<div style="color:red; position: absolute;margin-left:1060px;top:0;width:300px;height:600px;">
+<ClientOnly>
+  <WebInfo/>
+</ClientOnly>
+</div>
 
 <!--
 徽标
@@ -325,7 +335,7 @@ Partner
 <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
 :::
 
-<br/> -->
+<br/>
 
 ## ⚡ 反馈与交流
 
@@ -348,7 +358,7 @@ Partner
     </tr>
   </tbody>
 </table>
-
+-->
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
 <style>
@@ -372,7 +382,3 @@ Partner
     display: block;
   }
 </style>
-
-<ClientOnly>
-  <WebInfo/>
-</ClientOnly>

@@ -19,6 +19,8 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+    ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
+
 
 
 
@@ -208,20 +210,14 @@ module.exports = {
          showIcon: '/favicon.ico',
          showText: '(/≧▽≦/)咦！欢迎回来！',
          hideIcon: '/failure.ico',
-         hideText: '(●—●)喔哟，不要走呀！',
+         hideText: 'ಥ_ಥ喔哟，不要走呀！',
          recoverTime: 2000,
       },
    ],
-   [
-    {
-        name: 'custom-plugins',                   //全局展示时间插件
-        globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-    }
-    ],
     [
-      {                                // 获取文章阅读量和字数
+      {                                // 获取文章阅读量和字数,评论插件
         name: 'custom-plugins',
-        globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        globalUIComponents: ["PageInfo","GlobalTip","Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     },
     ],                  
   ],
