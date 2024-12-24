@@ -103,6 +103,7 @@ export default {
 .card-nav-item:hover {
   box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.7);
   transform: translateY(-3px) scale(1.01, 1.01);
+
 }
 .card-nav-title {
   overflow: hidden;

@@ -218,7 +218,7 @@ Partner
 ```yaml
 - name: 千年舟
   desc: 做好柜，用好板，就用千年舟
-  avatar: https://www.treezogroup.com/Img_mt/images/logo2.png # 可选
+  avatar: https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200122153807.jpg # 可选
   link: https://www.treezogroup.com/ # 可选
   bgColor: "#CBEAFA" # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: "#6854A1" # 可选，默认var(--textColor)
@@ -230,7 +230,7 @@ Partner
   textColor: "#fff"
 - name: 欧派家居
   desc: 有家,有爱,有欧派
-  avatar: https://www.oppein.com/templates/specialty/images/logo.png
+  avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   link: https://www.oppein.com/cn/
   bgColor: "#FCDBA0"
   textColor: "#A05F2C"
