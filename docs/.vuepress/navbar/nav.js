@@ -9,16 +9,16 @@ module.exports =  [
     {
       text: '图文鉴赏',
       items: [
-        { text: '电视柜', link: '/pages/f93792/' },
-        { text: '玄关柜', link: '/about/website/introduce/' },
-        { text: '餐边柜', link: '/about/website/introduce/'},
+        { text: '电视柜', link: '/pages/78kh78/' },
+        { text: '玄关柜', link: '/pages/1b128k/' },
+        { text: '餐边柜', link: '/pages/1b12lp/'},
         { text: '走廊柜', link: '/about/website/introduce/'},
-        { text: '衣帽柜', link: '/about/website/introduce/'},
+        { text: '衣帽柜', link: '/pages/1b87em/'},
         { text: '阳台柜', link: '/about/website/introduce/'},
         { text: '飘窗柜', link: '/about/website/introduce/'},
         { text: '收纳柜', link: '/about/website/introduce/'},
         { text: '床头柜', link: '/about/website/introduce/'},
-        { text: '酒柜', link: '/about/website/introduce/'},
+        { text: '酒柜', link: '/pages/2k12ed/'},
         { text: '鞋柜', link: '/about/website/introduce/'},
       ]
     },

@@ -38,12 +38,12 @@ module.exports = {
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     bodyBgImg:[  
         '/img/dake011.jpg',
-        '/img/dake012.jpg',
-        '/img/dake013.jpg',
-        '/img/dake014.jpg',
-        '/img/dake015.jpg',
-        '/img/dake016.jpg',
-        '/img/dake017.jpg',
+        '/img/gif/pexels-1.jpg',
+        '/img/gif/pexels-2.jpg',
+        '/img/gif/pexels-3.jpg',
+        '/img/gif/pexels-4.jpg',
+        '/img/gif/pexels-5.jpg',
+        '/img/gif/pexels-6.jpg',
         '/img/dake018.jpg',
         '/img/dake019.jpg',
 
