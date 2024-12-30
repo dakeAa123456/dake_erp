@@ -12,20 +12,21 @@ module.exports =  [
         { text: '电视柜', link: '/pages/78kh78/' },
         { text: '玄关柜', link: '/pages/1b128k/' },
         { text: '餐边柜', link: '/pages/1b12lp/'},
-        { text: '走廊柜', link: '/about/website/introduce/'},
+        { text: '走廊柜', link: '/pages/785pop/'},
         { text: '衣帽柜', link: '/pages/1b87em/'},
-        { text: '阳台柜', link: '/about/website/introduce/'},
-        { text: '飘窗柜', link: '/about/website/introduce/'},
-        { text: '收纳柜', link: '/about/website/introduce/'},
-        { text: '床头柜', link: '/about/website/introduce/'},
+        { text: '阳台柜', link: '/pages/520kkm/'},
+        { text: '飘窗柜', link: '/pages/889qwe/'},
+        { text: '收纳柜', link: '/pages/74kj5g/'},
+        { text: '床头柜', link: '/pages/556qwe/'},
         { text: '酒柜', link: '/pages/2k12ed/'},
-        { text: '鞋柜', link: '/about/website/introduce/'},
+        { text: '鞋柜', link: '/pages/854hgt/'},
       ]
     },
     {
       text: '我的文档',
       items: [
-        { text: '关于', link: '/about/website/introduce/' },
+        { text: '关于', link: 'https://docs.dakecn.top/' },
+        { text: '秘密', link: 'https://docs.dakecn.top/' },
       ]
     },
   ]

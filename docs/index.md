@@ -3,8 +3,8 @@ home: true
 heroImage: /img/taihua/1.png
 # heroText: vuepress-theme-dake
 # tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
-actionText: 开始使用 →
-actionLink: /pages/a2f161/
+# actionText: 开始使用 →
+# actionLink: /pages/a2f161/
 # bannerBg: "/img/bg.jpeg" # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 features: # 可选的
   - title: 安徽大可DAKE STOCK
@@ -37,25 +37,25 @@ postList: detailed
    </a>
    </div>
   
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand002.jpg" style="width:200px;height:200px;" />
+   <div class="box"><a href="/pages/1b128k/" target="_self"><img class="pic" src="/brand/brand002.jpg" style="width:200px;height:200px;" />
    <span class="mask">流影系列</span>
     </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand003.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/1b12lp/" target="_self"><img class="pic" src="/brand/brand003.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">岩月系列</span>
    </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand004.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/785pop/" target="_self"><img class="pic" src="/brand/brand004.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">北欧系列</span>
    </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand005.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/1b87em/" target="_self"><img class="pic" src="/brand/brand005.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">至臻系列</span>
    </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand006.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/520kkm/" target="_self"><img class="pic" src="/brand/brand006.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">简约系列</span>
    </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand007.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/889qwe/" target="_self"><img class="pic" src="/brand/brand007.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">清新自然</span>
    </a></div>
-   <div class="box"><a href="#" target="_blank"><img class="pic" src="/brand/brand008.jpg" style="width:200px;height:200px;" /> 
+   <div class="box"><a href="/pages/74kj5g/" target="_self"><img class="pic" src="/brand/brand008.jpg" style="width:200px;height:200px;" /> 
    <span class="mask">优雅唯美</span>
    </a></div>
    
@@ -143,41 +143,41 @@ data:
     author: Evan Xu
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   - img: /img/dake007.png
-    link: https://xugaoyi.com/
+    link: /pages/1d82c3
     name: 质量是品牌的灵魂，质量是企业的生命
     desc: 2024年9月，为深入贯彻落实国家质量发展战略，持续提升公司产品与服务质量，增强公司核心竞争力，公司...
-    author: Evan Xu
+    author: dake
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   - img: /img/dake008.jpg
-    link: https://xugaoyi.com/
+    link: /pages/3d7dbf
     name: 新沂沪千公司军民共建首届篮球友谊赛
     desc: “以球会友、军民共建”8月6日下午三点，夏日的炎炎烈日并未阻挡篮球场上的热情。新沂市消防大队与新沂沪...
-    author: Evan Xu
+    author: dake
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   - img: /img/dake009.png
-    link: https://xugaoyi.com/
+    link: /pages/5f1fd4
     name: 沪千参展阿联酋BDE建材装饰展
     desc: 6月12日至6月14日，迪拜世贸中心热闹非凡，迎来了年度盛事——第十六届阿联酋BDE建材装饰展！作为...
-    author: Evan Xu
+    author: dake
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   - img: /img/dake010.jpg
-    link: https://xugaoyi.com/
+    link: /pages/52bfdb
     name: 新沂沪千全力推进安全生产
     desc: 安全生产月严格落实安全操作规程杜绝“三违”行为在过去的一个月里，新沂沪千公司积极响应国家安全生产月的...
-    author: Evan Xu
+    author: dake
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
   - img: /img/dake011.png
-    link: https://xugaoyi.com/
+    link: /pages/b98b4b
     name: 国庆心相聚，公司同欢 “乐” 满堂
     desc: 在举国欢庆的十一佳节，阜阳大可举行了一场别出心裁的文体活动。此次活动致力于提高员工对企业的归属感和自...
-    author: Evan Xu
+    author: dake
     avatar: https://jsd.cdn.zzko.cn/gh/xaoxuu/assets@master/avatar/avatar.png
 ```
 
 :::
 
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">查看更多</a>
+  <a class="become-sponsor" href="/pages/99cddc/">查看更多</a>
 </p>
 
 <style>
