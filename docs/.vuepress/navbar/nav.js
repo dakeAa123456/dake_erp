@@ -25,8 +25,8 @@ module.exports =  [
     {
       text: '我的文档',
       items: [
+        { text: '私密测试', link: '/private/test2/' },
         { text: '关于', link: 'https://docs.dakecn.top/' },
-        { text: '秘密', link: 'https://docs.dakecn.top/' },
       ]
     },
   ]
@@ -42,6 +42,15 @@ module.exports =  [
     { text: '产品质量', link: '/pages/1d82c3/' },
     { text: '苔花家居', link: '/pages/3dda65/' },
     { text: '校园招聘', link: '/pages/2dda55/' },
+
+    {
+      text: '我的科普',
+      items: [
+        
+        { text: '混知', link: '/pages/hunzhi/' },
+       
+      ]
+    }
   
 
   ]

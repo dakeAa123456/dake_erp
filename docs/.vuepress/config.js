@@ -14,13 +14,15 @@ module.exports = {
   //description: '一个基于VuePress的 知识管理&博客 主题',
   //base: '/dake_erp/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'shortcut icon', href: 'http://erp.dakecn.com/images/logo.png' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'shortcut icon', href: 'img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }],
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
     ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }], // 阿里在线图标
+    ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://www.youngkbt.cn/noscript/"><style>.theme-vdoing-content { display:none }']
+
 
 
 
@@ -106,6 +108,27 @@ module.exports = {
       createYear: 2008, // 博客创建年份
       copyrightInfo: '版权所有：阜阳大可新材料股份有限公司<a style="margin-left:15px;" href="https://beian.miit.gov.cn/?spm=5176.29458888.J_9220772140.60.7cf02868hQEYty#/Integrated/index">皖ICP备17001852号-1</a>', // 博客版权信息，支持a标签
     },
+    // 私密文章配置
+  privatePage: {
+    openPrivate: true, // 开启私密文章验证，默认开启（true），如果不开启（false），则下面配置都失效
+    username: "admin", // 管理员用户名
+    password: "123123", // 管理员密码
+    expire: "1d", // 登录过期时间：1d 代表 1 天，1h 代表 1 小时，仅支持这两个单位，不加单位代表秒。过期后访问私密文章重新输入用户名和密码。默认一天
+    loginPath: "/vdoing/login/", // 引用登录组件的 md 文章的 permalink（必须），无默认值
+    loginKey: "vdoing_manager", // 存储用户名信息的 key，默认是 vdoing_manager。系统通过该 key 验证是否登录、是否过期
+    loginSession: false, // 开启是否在网页关闭或刷新后，清除登录状态，这样再次访问网页，需要重新登录，默认为 false（不开启）
+    firstLogin: 0, // 第一次进入网站需要验证。用于封锁整个网站，默认为 0（不开启），1 和 2 都代表开启，区别：1 代表虽然进入网站成功，但是网站内的私密文章仍需要单独验证，2 代表进入网站成功，网站内的私密文章不需要单独验证，也就是网站内的私密文章和普通文章一样可以访问
+    firstLoginKey: "vdoing_first_login", // 存储用户名信息的 key，firstLogin 开启后该配置生效，默认为 vdoing_first_login，系统通过该 key 验证是否登录、是否过期
+    // 私密文章多组用户名密码
+  // loginInfo: {
+  //   "/private/test1/": [
+  //     { username: "vdoing", password: "123456" },
+  //   ],
+  //   "vdoing_first_login" :[  // 对应 firstLoginKey 的值
+  //     { username: "vdoing", password: "123456" },
+  //   ]
+  // }
+  },
       // 站点配置（首页 & 文章页）
   blogInfo: {
     blogCreate: "2022-10-19", // 博客创建时间
