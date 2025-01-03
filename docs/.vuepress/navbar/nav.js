@@ -37,7 +37,7 @@ module.exports =  [
  { text: '资讯中心', 
   items:[
     { text: '旅游团建', link: '/pages/9cc27d/' },
-    { text: '工作会议', link: '/pages/1d82c3/' },
+    { text: '工作会议', link: '/pages/6343a7/' },
     { text: '考察交流', link: '/pages/1d82c3/' },
     { text: '产品质量', link: '/pages/1d82c3/' },
     { text: '苔花家居', link: '/pages/3dda65/' },
