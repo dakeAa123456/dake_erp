@@ -25,7 +25,7 @@ module.exports =  [
     {
       text: '我的文档',
       items: [
-        { text: '私密测试', link: '/private/test2/' },
+        { text: '测试', link: '/private/test2/' },
         { text: '关于', link: 'https://docs.dakecn.top/' },
       ]
     },
