@@ -9,11 +9,11 @@ heroImage: /img/taihua/1.png
 features: # 可选的
   - title: 安徽大可DAKE STOCK
     details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识管理平台
-    link: https://www.dakecn.com/
+    link: /pages/99cddc/
     imgUrl: /img/dake01.png
   - title: 苔花家居TAI HUA
     details: 以 Markdown 为中心的项目结构，内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点
-    link: https://www.taihuacn.com/
+    link: /pages/f93792/
     imgUrl: /img/dake02.png
   - title: 新沂沪千HU QIAN
     details: 专为阅读设计的UI，配合多种颜色模式、可关闭的侧边栏和导航栏，带给你一种沉浸式阅读体验
@@ -33,7 +33,7 @@ postList: detailed
    <div class="box">
    <a href="/pages/1b12ed/" target="_self">
    <img class="pic" src="/brand/brand001.jpg" style="width:200px;height:200px;" mode="aspectFill" /> 
-   <span class="mask">现代轻奢</span>
+   <span class="mask">现代系列</span>
    </a>
    </div>
   
@@ -53,10 +53,10 @@ postList: detailed
    <span class="mask">简约系列</span>
    </a></div>
    <div class="box"><a href="/pages/889qwe/" target="_self"><img class="pic" src="/brand/brand007.jpg" style="width:200px;height:200px;" /> 
-   <span class="mask">清新自然</span>
+   <span class="mask">日韩系列</span>
    </a></div>
    <div class="box"><a href="/pages/74kj5g/" target="_self"><img class="pic" src="/brand/brand008.jpg" style="width:200px;height:200px;" /> 
-   <span class="mask">优雅唯美</span>
+   <span class="mask">中式系列</span>
    </a></div>
    
 </div>
