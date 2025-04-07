@@ -22,6 +22,8 @@ module.exports = {
     ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }],
     ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3129839_xft6cqs5gc.css' }], // 阿里在线图标
     ['noscript', {}, '<meta http-equiv="refresh" content="0; url=https://www.youngkbt.cn/noscript/"><style>.theme-vdoing-content { display:none }']
+  
+
 
 
 
@@ -240,13 +242,13 @@ module.exports = {
     [
       {                                // 获取文章阅读量和字数,评论插件
         name: 'custom-plugins',
-        globalUIComponents: ["PageInfo","GlobalTip","Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        globalUIComponents: ["PageInfo","BlockToggle","GlobalTip","Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     },
     ],                  
   ],
 
   markdown: {
-    // lineNumbers: true,
+    lineNumbers: true,    //显示代码块的行号
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 

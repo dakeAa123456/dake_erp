@@ -56,6 +56,26 @@ module.exports =  [
   ]
   },
 
+  { text: '程序设计',
+    items:[
+      {
+        text: '前端案例',
+        items: [
+          
+          { text: 'Demo_One', link: '/pages/4f8616/' },
+          { text: 'Demo_Two', link: '/pages/becc93/' },
+         
+        ]
+      },
+    
+  
+    
+    
+  
+    ]
+
+  },
+
 
  //{ text: '产品中心', link: '/pages/1b12ed/' },
  { text: '招商加盟', link: '/pages/db78e2/' },
