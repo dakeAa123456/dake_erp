@@ -1,5 +1,5 @@
 //const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
-//const htmlModules = require('./config/htmlModules.js');
+const htmlModules = require('./config/htmlModules.js');
 const nav = require('./navbar/nav.js'); // 在 .vuepress 目录下
 const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile');
 
@@ -146,7 +146,7 @@ module.exports = {
     pageIteration: 2500, // 如果文章页获取访问量失败，则每隔多少时间后获取一次访问量，直到获取成功或获取 5 次后。默认 3 秒。注意：设置时间太低，可能导致访问量 + 2、+ 3 ......
     // 说明：成功获取一次访问量，访问量 + 1，所以第一次获取失败后，设置的每个隔段重新获取时间，将会影响访问量的次数。如 100 可能每次获取访问量 + 3
   },
-    //htmlModules,
+    htmlModules
   },
 
   // 插件
@@ -200,15 +200,15 @@ module.exports = {
         horizontal: false // 是否展示为横向样式
       }
     }],
-   // [
-    //  'vuepress-plugin-zooming', // 放大图片
-    //  {
-    //    selector: '.theme-vdoing-content img:not(.no-zoom)',
-    //    options: {
-    //      bgColor: 'rgba(0,0,0,0.6)'
-    //    },
-    //  },
-   // ],
+    [
+      'vuepress-plugin-zooming', // 放大图片
+    {
+        selector: '.theme-vdoing-content img:not(.no-zoom)',
+        options: {
+          bgColor: 'rgba(0,0,0,0.6)'
+        },
+      },
+    ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {

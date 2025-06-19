@@ -28,6 +28,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "node": "^24.2.0",
     "vuepress-plugin-reading-progress": "^1.0.10"
   }
 }

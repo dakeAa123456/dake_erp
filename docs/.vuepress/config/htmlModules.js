@@ -1,3 +1,22 @@
+// 官方文档：https://doc.xugaoyi.com/pages/a20ce8/#%E8%87%AA%E5%AE%9A%E4%B9%89html%E6%A8%A1%E5%9D%97
+module.exports = {
+  pageB: `<div class="donation">
+  <button>打赏</button>
+  <div class="main">
+      <div class="pic">
+          <img src="/img/wechat.jpg" alt="微信" style="width:10rem;height:220px;">
+          <img src="/img/alipay.jpg" alt="支付宝" style="width:10rem;height:220px;">
+      </div>
+  </div>
+</div>`,
+};
+
+
+
+
+
+
+
 /** 插入自定义html模块 (可用于插入广告模块等)
  * {
  *   homeSidebarB: htmlString, 首页侧边栏底部
@@ -16,7 +35,9 @@
  *
  * ①注：在.md文件front matter配置`article: false`的页面是自定义页，未配置的默认是文章页（首页除外）。
  * ②注：windowLB 和 windowRB：1.展示区块最大宽高200px*400px。2.请给自定义元素定一个不超过200px*400px的宽高。3.在屏幕宽度小于960px时无论如何都不会显示。
- */
+
+// 官方文档：https://doc.xugaoyi.com/pages/a20ce8/#%E8%87%AA%E5%AE%9A%E4%B9%89html%E6%A8%A1%E5%9D%97
+
 
 
 module.exports = {
@@ -65,15 +86,15 @@ module.exports = {
   //     }
   //   </style>
   // `
-}
+//}
 
-
-// module.exports = {
+ */
+//module.exports = {
 //   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+ // pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 // }
