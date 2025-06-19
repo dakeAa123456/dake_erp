@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      node:
+        specifier: ^24.2.0
+        version: 24.2.0
       vuepress-plugin-reading-progress:
         specifier: ^1.0.10
         version: 1.0.10
@@ -2398,7 +2401,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
+    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -3414,6 +3417,9 @@ packages:
   no-case@2.3.2:
     resolution: {integrity: sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==}
 
+  node-bin-setup@1.1.4:
+    resolution: {integrity: sha512-vWNHOne0ZUavArqPP5LJta50+S8R261Fr5SvGul37HbEDcowvLjwdvd0ZeSr0r2lTSrPxl6okq9QUw8BFGiAxA==}
+
   node-forge@0.10.0:
     resolution: {integrity: sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==}
     engines: {node: '>= 6.0.0'}
@@ -3423,6 +3429,11 @@ packages:
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
+
+  node@24.2.0:
+    resolution: {integrity: sha512-+LxcguHN48uLeFUdC8w9SGbJhuOklUrCgl0K3dmqhXdokzwd83HKXUbeA8JLd41G+77W9Ovq7FXGCij74Ff/tw==}
+    engines: {npm: '>=5.0.0'}
+    hasBin: true
 
   nopt@1.0.10:
     resolution: {integrity: sha512-NWmpvLSqUrgrAC9HCuxEvb+PSloHpqVu+FqcO4eeF2h5qYRhA7ev6KvelyQAKtegUbC6RypJnlEOhd8vloNKYg==}
@@ -9090,6 +9101,8 @@ snapshots:
     dependencies:
       lower-case: 1.1.4
 
+  node-bin-setup@1.1.4: {}
+
   node-forge@0.10.0: {}
 
   node-libs-browser@2.2.1:
@@ -9119,6 +9132,10 @@ snapshots:
       vm-browserify: 1.1.2
 
   node-releases@2.0.19: {}
+
+  node@24.2.0:
+    dependencies:
+      node-bin-setup: 1.1.4
 
   nopt@1.0.10:
     dependencies:
