@@ -4,8 +4,8 @@ module.exports = {
   <button>打赏</button>
   <div class="main">
       <div class="pic">
-          <img src="/img/wechat.jpg" alt="微信" style="width:10rem;height:220px;">
-          <img src="/img/alipay.jpg" alt="支付宝" style="width:10rem;height:220px;">
+          <img src="/img/wechat.jpg" alt="微信" style="width:14rem;height:250px;">
+          <img src="/img/alipay.jpg" alt="支付宝" style="width:14rem;height:250px;">
       </div>
   </div>
 </div>`,
